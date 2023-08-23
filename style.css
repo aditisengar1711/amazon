@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* hover */
+.box{
+    border: 2px solid transparent;
+    padding: 2px;
+}
+.box:hover{
+    border: 1.5px solid white;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.nav-bar{
+    background-color: #0f1111;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+/* nav-box1 */
+.nav-box1{
+    background-image: url(amazon\ logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 113px;
+    
+}
+/* nav-box2  */
+.nav-box2{
+    display: flex;
+    margin-left: 20px;
+    
+    
+}
+.box2left i{
+    padding-top: 10px;
+    
+    
+}
+
+.first-box{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #cccccc;
+    font-weight: 600;
+    
+}
+.second-box{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 700;
+   
+    
+}
+/* nav-box3 */
+.nav-box3{
+    display: flex;
+    margin-left: 10px;
+    width: 700px;
+    align-items: center;
+    
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    
+}
+.nav-select{
+    height: 40px;
+    width: 60px;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    
+}
+.nav-input{
+    height: 40px;
+    font-size: 1rem;
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box3-icon{
+    width: 55px; 
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #febd69;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+/* nav-box4 */
+
+.nav-box4{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    height: 40px;
+    width: 55px;
+}
+.nav-box4 img{
+    height: 18px;
+    width:21px;
+    margin-right: 5px;
+}
+.box4-select{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #0f1111;
+    color: white;
+    border: none;
+}
+/* .nav-box5 */
+.nav-box5{
+   margin-left: 20px;  
+}
+.box-first{
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-second{
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+/* .nav-box6 */
+.nav-box6{
+    margin-left: 20px;
+
+}
+.box1{
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box2{
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+} 
+/* nav-box7 */
+.nav-box7{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.nav-box7 p{
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 25px;
+    
+}
+/* .................................................................................... */
+/* panel starts */
+.panel{
+   background-color: #232f3e;
+   height: 45px;
+   align-items: center;
+   justify-content: space-evenly;
+   display: flex;
+
+}
+.panel-left{
+    display: flex;
+    color: white;
+    align-items: baseline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.panel-left p{
+    margin-left: 5px;
+}
+.panel-middle{
+    margin-left: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.panel-middle p{
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px; 
+    padding-top: 10px;
+    padding-bottom: none;
+    margin-top: 10px;
+   
+}
+.panel-right{
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 200px;
+}
+/* --------------------------------panel ends---------------------------------------- */
+
+/* hero section */
+/* .hero{ 
+    background-image: url();
+} */
